@@ -1,6 +1,6 @@
 [package]
 name = "gdbm-sys"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Chris Holcombe <xfactor973@gmail.com>"]
 homepage = "https://github.com/cholcombe973/gdbm-sys"
 description = "gdbm (berkeley database) FFI bindings"
