@@ -2,7 +2,7 @@
 name = "gdbm-sys"
 version = "0.1.0"
 authors = ["Chris Holcombe <xfactor973@gmail.com>"]
-homepage = "https://github.com/cholcombe973/lvm-sys"
+homepage = "https://github.com/cholcombe973/gdbm-sys"
 build = "build.rs"
 license = "MIT"
 
