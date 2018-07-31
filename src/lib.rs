@@ -75,10 +75,13 @@ impl Clone for _bindgen_ty_1 {
         *self
     }
 }
+
+#[allow(non_camel_case_types)]
 pub type GDBM_FILE = *mut _bindgen_ty_1;
+#[allow(non_camel_case_types)]
 pub type gdbm_error = ::std::os::raw::c_int;
 
-#[cfg(target_os = "linux")]
+#[cfg(any(target_os = "linux", target_os = "macos"))]
 #[link(name = "gdbm", kind="dylib")]
 extern "C" {
     pub static mut gdbm_version: *mut ::std::os::raw::c_char;
