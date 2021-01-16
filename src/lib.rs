@@ -110,6 +110,6 @@ extern "C" {
                        arg4: ::std::os::raw::c_int)
                        -> ::std::os::raw::c_int;
     pub fn gdbm_fdesc(arg1: GDBM_FILE) -> ::std::os::raw::c_int;
-    pub static mut gdbm_errno: gdbm_error;
-    pub fn gdbm_strerror(arg1: gdbm_error) -> *mut ::std::os::raw::c_char;
+    pub fn gdbm_errno_location() -> *mut gdbm_error;
+    pub fn gdbm_strerror(arg1: gdbm_error) -> *const ::std::os::raw::c_char;
 }
